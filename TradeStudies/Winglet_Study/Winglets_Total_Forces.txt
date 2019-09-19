@@ -1,0 +1,34 @@
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: AeroCats_2014                                               
+     # Surfaces =   9
+     # Strips   = 180
+     # Vortices =1800
+
+  Sref =  2300.0       Cref =  22.314       Bref =  106.00    
+  Xref =  11.547       Yref =  0.0000       Zref =  5.0035    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case: Winglets_A_9.0                          
+
+  Alpha =   9.00000     pb/2V =   0.00000     p'b/2V =   0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =   0.00000     r'b/2V =   0.00000
+
+  CXtot =   0.08083     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =   0.01092
+  CZtot =  -1.57075     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.56406
+  CDtot =   0.16588
+  CDvis =   0.00000     CDind =   0.16588
+  CLff  =   1.58013     CDff  =   0.16032    | Trefftz
+  CYff  =   0.00000         e =    1.0148    | Plane  
+ 
+   Elevator        =   0.00000
+   Aileron         =   0.00000
+   Rudder          =   0.00000
+ 
+ ---------------------------------------------------------------
