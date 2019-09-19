@@ -1,0 +1,126 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 0.5in
+\rightmargin 0.5in
+\bottommargin 0.5in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+Over the course of the year our team has researched, designed, tested an
+ aircraft for the SAE Aero Design® East Competition.
+ The team worked not only to optimize aircraft performance, but also our
+ overall design process.
+ A systems engineering and lean design approach was used to set team roles.
+ Prioritized collaboration and integration promoted an efficient aircraft
+ design and production cycle which the team plans on continuing through
+ the final assembly of the competition aircraft.
+ 
+\end_layout
+
+\begin_layout Standard
+We started our design process by calculating expected flight loads.
+ Further consideration was made for the specific flight environment in Lakeland,
+ Fl.
+ based on historical data.
+ Trade studies were then performed to optimize aerodynamic performance,
+ structural integrity, thrust, and stability and control.
+ These studies were aided with the use of several tools such as MATLAB,
+ SolidWorks, ANSYS, AVL, XFLR5, and an in-house student-developed program,
+ Aerothon.
+ Once an initial design was completed, an integrated systems approach was
+ used to further develop and optimize design details.
+ 
+\end_layout
+
+\begin_layout Standard
+The Aerocats verified design specifications through an iterative process
+ of analysis and testing.
+ Final validation of the team's design process was accomplished by successfully
+ completing 11 loaded flight tests.
+ We believe the final product is well engineered and meets our mission of
+ lifting the highest possible payload under given constraints and derived
+ requirements.
+ 
+\end_layout
+
+\begin_layout Standard
+The UC Aerocats will use a payload equation-based strategy in competition
+ to ensure the max bonus is achieved along with incrementally increasing
+ the weight to aim for the highest score possible.
+ This strategy can further be adjusted with deviations from expected conditions
+ to improve our competition performance.
+\end_layout
+
+\begin_layout Standard
+This competition has proven to be a invaluable addition to classroom education.
+ Our team learned many lessons, not only in practical engineering principles
+ but also in project management, manufacturing, and team collaboration.
+ These lessons will prepare us, personally and professionally, as we enter
+ our engineering careers.
+\end_layout
+
+\end_body
+\end_document

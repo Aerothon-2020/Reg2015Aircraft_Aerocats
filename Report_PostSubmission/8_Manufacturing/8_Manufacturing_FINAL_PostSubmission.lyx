@@ -1,0 +1,295 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 0.5in
+\rightmargin 0.5in
+\bottommargin 0.5in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\author 2021196283 "Michael McMahon" 
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Manufacturing
+\end_layout
+
+\begin_layout Standard
+In order to build quality, reproducible parts, the team considered manufacturabi
+lity in all aspects of the design process.
+ The team developed a wide variety of manufacturing techniques.
+ Labor was divided among several groups which increased productivity and
+ allowed individuals to gain expertise at building specific components.
+ The team has a dedicated workshop that housed necessary resources involved
+ in fabrication and construction of our aircraft.
+ Also, the team emphasized safety during construction and used personal
+ protective equipment (PPE) at all times.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 9
+placement O
+overhang 0in
+width "40col%"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Aft-Fuselage.jpg
+	lyxscale 50
+	width 40col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Aft-Fuselage-Construction"
+
+\end_inset
+
+Aft Fuselage Construction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The aft fuselage and forward fuselage utilized our most innovative building
+ technique.
+ Top, bottom, and side view drawings of the fuselage were printed at full
+ scale and secured to a foam sheet.
+ The truss members were then cut to size and fitted together directly onto
+ the print as can be seen in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Aft-Fuselage-Construction"
+
+\end_inset
+
+.
+ This allows us to easily build easily replicable fuselage sides with exact
+ dimension.
+ After the sides were constructed they were secured to the top and bottom
+ prints to add in upper and lower fuselage members.
+\change_deleted 2021196283 1422306116
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 8
+placement I
+overhang 0in
+width "2in"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Wheel.JPG
+	lyxscale 10
+	width 2in
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Wheel Machining
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Wheel-Machining"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The middle fuselage was very simple to fabricate thanks to generous help
+ from Foxlite.
+ Using drawings from SolidWorks, Foxlite laser cut the middle fuselage panels.
+ The laser cutting allowed us to use finger joints
+\change_deleted 2021196283 1422306942
+ 
+\change_unchanged
+ to simplify assembly and create a stronger interface.
+ The finger joints were mated and glued in our workshop.
+\end_layout
+
+\begin_layout Standard
+The landing gear wheels were machined in UC's machine shop (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wheel-Machining"
+
+\end_inset
+
+).
+ The wheel was manufactured as two pieces.
+ These pieces were pressed and adhered around the bearing.
+ The steel axle was then run through the fuselage and the wheels were attached.
+ Finally, the basswood and balsa wood reinforcing structure was built around
+ the axle.
+\end_layout
+
+\begin_layout Standard
+Construction quality in the wing is particularly important because of high
+ lift loads it will experience.
+ Spar caps were made by routing basswood boards to a 
+\begin_inset Formula $1.75$
+\end_inset
+
+ inch width and splicing them together using scarf joints to achieve the
+ 105 inch wing span.
+ The scarf joints were made by sanding identical tapered ends on each member
+ and then adhering them together under high pressure using CA glue.
+ The team then attached ribs and shear webs with CA glue starting at the
+ root and working towards the tip as seen in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wing-Construction"
+
+\end_inset
+
+.
+ Constant inspection of the leading and trailing edge ensured no construction-in
+duced wing dihedral or incidence angle.
+ Next, the team soaked 
+\begin_inset Formula $\frac{1}{32}$
+\end_inset
+
+ inch balsa wood and formed it around the leading edge of the airfoils to
+ add rigidity.
+ Finally, we assembled the rear spar and trailing edge to the wing ribs.
+ A nearly identical process was used to construct the horizontal and vertical
+ tails.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement O
+overhang 0in
+width "1.4in"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Wing Construction.jpg
+	lyxscale 10
+	width 1.4in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Wing-Construction"
+
+\end_inset
+
+Wing Construction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Once all the subassemblies were constructed and mated together, the propulsion
+ team installed the electrical system and the entire plane was wrapped in
+ UltraCote®.
+ After electrical system installation, the team performed an integrated
+ system ground test to ensure functionality and proper operation.
+ The Aerocats team followed the ground test with repetitive flight testing
+ to verify aircraft total system performance.
+ Dedicated roles and a systems engineering approach have allowed us to fabricate
+ an aircraft that is lightweight, durable, and easily repairable.
+\end_layout
+
+\end_body
+\end_document

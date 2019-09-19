@@ -1,0 +1,1557 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 0.5in
+\rightmargin 0.5in
+\bottommargin 0.5in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Design Layout & Trades
+\end_layout
+
+\begin_layout Standard
+Since an aircraft is a complicated system of systems a decision that affects
+ one component may have adverse affects on aircraft performance.
+ It is important for all groups to stay integrated and for many trade studies
+ to be performed to discover the optimal aircraft configuration.
+\end_layout
+
+\begin_layout Subsection
+Overall Design Layout and Size
+\end_layout
+
+\begin_layout Standard
+The aircraft consists of a detachable wing, a 3-sectioned fuselage, a horizontal
+ tail, and a vertical tail.
+ The wing has a rectangular and a tapered section with a total span of 105
+ inches.
+ The total length of the aircraft from nose to tail is 54.25 inches.
+ The horizontal tail is on the same plane as the leading edge of the main
+ wing and has vertical tail sections located at both tips of the horizontal
+ tail span.
+ The total height of the aircraft is 15.25 inches from the ground.
+\end_layout
+
+\begin_layout Subsection
+Optimization and Sensitivity Analysis
+\end_layout
+
+\begin_layout Standard
+The aircraft design targets a specific flight mission: take off with maximum
+ payload in under 200 feet.
+ The design is optimized to accomplish the mission repeatedly so that a
+ maximum score can be achieved, in addition to a maximum payload lifted
+ in competition.
+\end_layout
+
+\begin_layout Subsubsection
+Competitive Scoring and Strategy Analysis
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap table
+lines 0
+placement i
+overhang 0in
+width "3in"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Round
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R_{n}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $B_{n}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FFS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+---
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19.75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+---
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+---
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+---
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+---
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13.75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+---
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Total
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+188.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+208.7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Aerocats-Predicted-Competition"
+
+\end_inset
+
+Aerocats Predicted Competition Scoring
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+The team uses the payload prediction curve to determine the payload required
+ to attain maximum bonus.
+ This is calculated with the equation 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$Payload=30.15-0.000867*(Density Altitude)$
+\end_layout
+
+\end_inset
+
+.
+ The team believes this equation will accurately predict our aircraft's
+ payload capacity, is repeatedly attainable, and will maximize our overall
+ score.
+ Once the maximum bonus run is achieved the team will step up the weight
+ in 0.5 lb increments.
+ This strategy will be adjusted to the competition if our projections are
+ overly conservative.
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Aerocats-Predicted-Competition"
+
+\end_inset
+
+ shows the projected score if the 20 point bonus is attained on the first
+ flight, assuming density altitude of 0 feet for the entirety of the day,
+ followed by 5 runs with 0.5 lb increases each run.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Optimization and Sensitivity Analysis
+\end_layout
+
+\begin_layout Standard
+Because of the nature of aircraft system design, changes to subsystems can
+ result in undesirable changes to the overall aircraft.
+ The optimization effort looked to maximize the merits and capabilities
+ of each subsystem without adversely affecting the ability of the aircraft
+ to accomplish its mission.
+\end_layout
+
+\begin_layout Paragraph
+Propulsion System Optimization
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "3in"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename 20b8Prop_w_A50A60Fig1_thrust_epwrconsptn.png
+	lyxscale 50
+	width 3in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Motor-Characteristics:-Electrica"
+
+\end_inset
+
+Electrical Power Consumption & Static Thrust
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The propulsion team selected a motor and propeller combination that would
+ provide the aircraft with as much thrust as possible within the 1000 Watt
+ (W) limit.
+ The team determined an acceptable range of propellers and motors and purchased
+ several propellers and motors for testing.
+ To quantify the effect of propeller diameter and propeller pitch, the team
+ performed trade studies using Aerothon.
+ The group researched popular RC propeller manufacturers and recorded values
+ for mass, pitch, diameter, and material composition.
+ A range of propellers from 16-20 inch diameter, and 8-12 inch pitch was
+ selected.
+ After narrowing down the propellers to the this range, it was necessary
+ to find the optimal motor and propeller system to provide the most thrust
+ using less than 1000 W of power.
+ The group sampled a large portion of electric RC motor manufacturers and
+ recorded pertinent details for each motor model.
+ The motor characteristics were input into Aerothon and matched to propellers
+ which led to the purchase of two motors.
+ As a result of studying the purchased motors in greater detail, the Hacker
+ A50 14L V3, and the Hacker A60 7XS.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Motor-Characteristics:-Electrica"
+
+\end_inset
+
+ displays the final two motors for the APC 20x8E propeller.
+ The Hacker A50 14L delivers more torque over the expected RPM range, it
+ is the best motor choice for this propeller.
+ The system underwent flight testing on the UC 2014 Regular Class aircraft.
+ The results from the flight testing showed that the higher pitch in a tested
+ APC 19x10E propeller allowed for the aircraft to accelerate quicker, in
+ addition to having increased dynamic thrust for the pilot to utilize.
+ However, this added thrust came at the cost of exceeding the 1000 W power
+ draw limit.
+ After a day of extensive flight testing with the limiter installed the
+ Hacker A50 14L V3 and APC 20x8E propeller emerged as the best propulsion
+ system.
+\end_layout
+
+\begin_layout Paragraph
+Aerodynamics Optimization
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+Considering the mission of our aircraft, the optimal airfoil for the main
+ wing is an airfoil that performs well at a low Reynolds number.
+ Optimal performance is characterized by maximization of the lift coefficient
+ (
+\begin_inset Formula $C_{L}$
+\end_inset
+
+), maximization of lift to drag ratio (
+\begin_inset Formula $L/D_{max}$
+\end_inset
+
+), and producing a negative pitching moment coefficient (
+\begin_inset Formula $C_{M}$
+\end_inset
+
+).
+ Various high-lift, low-Reynolds-number airfoils were studied to quantify
+ aerodynamic performance in low speed, high lift flight.
+ The Selig 1223 (S1223) airfoil was selected for the aircraft design due
+ to its high lift capabilities at low Reynolds numbers.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement r
+overhang 0in
+width "3in"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename airfoil trade study.png
+	width 3in
+	BoundingBox 0bp 0bp 734bp 590bp
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Airfoils"
+
+\end_inset
+
+Airfoil Characteristics
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+A significant advantage of using the S1223 is the large camber that provides
+ a high 
+\begin_inset Formula $C_{L_{max}}$
+\end_inset
+
+.
+ However, the large camber causes the S1223 to produce significant aft-loading
+ which produces a high forward pitching moment which must be counteracted
+ by a large horizontal tail that has undesirably high drag.
+ The Aerodynamics team researched modifications to the baseline S1223 airfoil
+ and compared the modifications to the UC Aerocats previously developed
+ airfoils Selig 1223 A (S1223_A) and Selig 1223 TC (S1223_TC).
+ The modifications to the baseline airfoil maintain high coefficients of
+ lift during our predicted angle of attack range of -5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+ to 15
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+ while reducing the pitching moment and drag at angles of attack greater
+ than 15
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Airfoils.png
+	lyxscale 50
+	width 3in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Airfoil Shape Comparison
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+\begin_inset Wrap figure
+lines 0
+placement i
+overhang 0in
+width "3.25in"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename taper ratio study.png
+	lyxscale 50
+	width 3.25in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Taper-Ratio-versus"
+
+\end_inset
+
+Taper Ratio versus Taper Break Study, Max Root CL and Max Tip CL Difference
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The airfoil chosen for the aircraft is the S1223_TC because it gives the
+ optimal thickness for stalling.
+ The thickness, between 20-25% of the chord, produces a high stall angle
+ of attack of 22
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+.
+ This angle of attack is well out of the expected operational range of the
+ aircraft.
+ The S1223_TC has the greatest camber of the 3 airfoils giving it the highest
+ 
+\begin_inset Formula $C_{L}$
+\end_inset
+
+.
+ The S1223_TC has moderate stall characteristics due the higher 
+\begin_inset Formula $C_{L}$
+\end_inset
+
+ and a lower 
+\begin_inset Formula $C_{D}$
+\end_inset
+
+ than the S1223_A.
+ As a result of the analysis, the Selig 1223 TC modified airfoil meets all
+ of the team’s aerodynamic performance goals and was selected for the aircraft's
+ wing design.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "3.25in"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename cl distribution.png
+	lyxscale 50
+	width 3.25in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:CL-Distribution-Across"
+
+\end_inset
+
+CL Distribution Across Span with Planform Area
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+To optimize the main wing's planform area, the Aerodynamics team investigated
+ the taper break location and taper ratio for the wing as seen in Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Taper-Ratio-versus"
+
+\end_inset
+
+ using the in-house Aerothon code.
+ A minimum difference in the coefficient of lift of 0.1 between the root
+ and wing tip was determined to be necessary.
+ Initially a taper ratio of 0.35 and a taper break of 0.65 were chosen with
+ a root versus wing tip coefficient of lift difference of 0.1007.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+However, a taper ratio of 0.35 presents challenges to manufacture and did
+ not provide the desired lift amount.
+ To improve ease of manufacturing and overall lift the taper ratio was increased
+ to 0.5.
+ This results in a coefficient of lift difference of 0.1703 between the wing
+ root and wing tip.
+ The final lift distribution and planform area is displayed in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:CL-Distribution-Across"
+
+\end_inset
+
+ which compares it to an elliptic and rectangular wing lift distribution
+ approximation.
+\end_layout
+
+\begin_layout Standard
+With the constraints in mind the Aerodynamics and Performance teams plotted
+ take-off distance and wingspan versus planform area for various aspect
+ ratios.
+ These plots, generated for standard day conditions, are shown in Figures
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ground-Roll-vs."
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wing-Span-vs."
+
+\end_inset
+
+ for a payload of 33 lbs.
+ As seen in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wing-Span-vs."
+
+\end_inset
+
+, a 102 inch wingspan restricts the aspect ratio to below 5.0 because all
+ higher aspect ratios require greater wingspans.
+ Furthermore, Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wing-Span-vs."
+
+\end_inset
+
+ illustrates the iterative process of how the aspect ratio was chosen.
+ Specifically, all aspect ratios with 102 inch wingspans that do not meet
+ the derived requirements are eliminated.
+ For example, the aspect ratio of 4.5 in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wing-Span-vs."
+
+\end_inset
+
+ with a 102 inch wingspan corresponds to a planform area of 2,312 in
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$^2$
+\end_layout
+
+\end_inset
+
+.
+ This aspect ratio gives little design space for the Stability and Control
+ team to meet the desired static margin and was eliminated.
+ This process determined that the aspect ratio of 5.0 was the optimum choice
+ because it satisfied all self-imposed design restrictions.
+ Thus, the planform area was initially determined to be 2,080 in
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$^2$
+\end_layout
+
+\end_inset
+
+ with a wingspan of 102 inches.
+ By subsequently improving the fuselage design, the wingspan was increased
+ from 102 inches to 105 inches and the planform area from 2,080 in
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$^2$
+\end_layout
+
+\end_inset
+
+ to 2,147 in
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$^2$
+\end_layout
+
+\end_inset
+
+.
+ This wing area increase resulted in a take-off distance of less than 200
+ feet for the design payload weight as seen in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ground-Roll-vs."
+
+\end_inset
+
+.
+ The selected planform area and wingspan was the best design solution based
+ on the derived constraints, competition requirements, and mission objective.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../6_Analysis/GroundRoll_Report.JPG
+	lyxscale 50
+	width 3.2in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ground-Roll-vs."
+
+\end_inset
+
+Ground Roll vs.
+ Planform Area
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hspace*{\fill}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../6_Analysis/WingSpan_Report.JPG
+	lyxscale 50
+	width 3.2in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Wing-Span-vs."
+
+\end_inset
+
+Wing Span vs.
+ Planform Area
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Planform Area Trade Studies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Static Stability Optimization
+\end_layout
+
+\begin_layout Standard
+With a high static margin, the aircraft can be made very stable but the
+ control surface effectiveness decreases.
+ For a low static margin, the aircraft becomes more responsive to elevator
+ deflection, leading to possible reductions in horizontal tail sizing.
+ While this is advantageous when considering weight savings, it is important
+ to consider the increased workload shifted to the pilot.
+\end_layout
+
+\begin_layout Standard
+Research revealed that many similar-class aircraft have a static margin
+ from 5-10%.
+ Additionally from expert pilot input, a static margin of 5% of the wing
+ MAC was considered too aggressive and 15% was considered too conservative.
+ As a result of these inputs the chosen static margin is 7% of the MAC.
+\end_layout
+
+\begin_layout Subsection
+Design Features and Details
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename isoviewexplode.PNG
+	lyxscale 50
+	height 1in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Exploded Fuselage Assembly
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+The aircraft has 4 main assemblies; fuselage, wing, landing gear, and tail.
+ The fuselage has three sub components: the forward fuselage, the middle
+ fuselage, and the aft fuselage.
+ The forward fuselage contains the motor and main electrical components.
+ It is constructed out of 
+\begin_inset Formula $\frac{1}{4}$
+\end_inset
+
+ inch x 
+\begin_inset Formula $\frac{1}{4}$
+\end_inset
+
+ inch basswood members with an aircraft ply firewall and balsa wood floor
+ and ceiling panels.
+ The ceiling panel on the forward fuselage is removable to allow easy access
+ to components.
+\end_layout
+
+\begin_layout Standard
+The middle fuselage is the main interfacing member of the aircraft and contains
+ the payload bay amde of aircraft plywood floor.
+ The roof of the middle fuselage is a balsa and UltraCote® hatch that allows
+ the payload to be easily loaded.
+ The floor of the middle fuselage angles upwards relative to the horizontal
+ at 22º to allow easier loading of the payload.
+ The payload bay is 4 x 4 x 10 inches and is constructed out of 
+\begin_inset Formula $\frac{1}{64}$
+\end_inset
+
+ in.
+ birch plywood.
+ The fuselage weight is reduced with laser cut lightening holes with rounded
+ corners to reduce stress concentration.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement O
+overhang 0in
+width "1in"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename spar-crosssection.png
+	lyxscale 20
+	width 1in
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Spar Cross Section
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The aft fuselage is a Warren truss because it best distributes upward and
+ downward loads from the tail and aft control surface.
+ It is 4 inches wide and has a length of 39.3 inches.
+ The tail spar interfaces through the aft end of the truss section.
+\end_layout
+
+\begin_layout Standard
+The wing spans 105 inches with a 22.34 inch root chord, 11.17 inch tip chord,
+ and a taper break location 34.7 inches from the root.
+ The main load bearing member of the wing is a box spar centered at the
+ quarter chord point of the airfoil.
+ The box spar has basswood spar caps and balsa wood shear webs.
+ The main spar cross section is 
+\begin_inset Formula $1.75$
+\end_inset
+
+ x 
+\begin_inset Formula $1.75$
+\end_inset
+
+ inch and tapers over 17.85 inches to 0.875 x 0.6 inches at the wing tip.
+ 
+\begin_inset Formula $\frac{1}{8}$
+\end_inset
+
+ inch balsa stringers line the inside corners of the spar for ease of constructi
+on.
+ Ribs are attached along the spar to form the airfoil shape.
+ The plane has a 1 x 
+\begin_inset Formula $\frac{1}{4}$
+\end_inset
+
+ inch rear spar to provide additional torsional resistance.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename wing_update.PNG
+	lyxscale 20
+	width 2.75in
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Wing Skeleton Isometric View
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The horizontal tail spans 48 inches with a 10.3 inch chord.
+ The vertical tails each extend 7 inches above and 3 inches below the horizontal
+ tail.
+ The root chord of each vertical tail is 10 inches.
+ The horizontal tail spar has a 1.00 x 0.88 inch cross section and is located
+ at the quarter chord point of the airfoil.
+\end_layout
+
+\begin_layout Standard
+The main landing gear consists of 4 inch diameter Ultra High Molecular Weight
+ (UHMW) Polyethylene wheels with embedded 
+\begin_inset Formula $\frac{3}{4}$
+\end_inset
+
+ inch outer diameter, 
+\begin_inset Formula $\frac{1}{4}$
+\end_inset
+
+ inner diameter, bearings.
+ The axle is a 
+\begin_inset Formula $\frac{1}{4}$
+\end_inset
+
+ inch diameter threaded steel rod.
+ The axle is secured through aircraft plywood mounts that are incorporated
+ into the fuselage.
+\end_layout
+
+\begin_layout Subsection
+Interfaces and Attachments
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+All interfaces between sub-assemblies of the aircraft (excluding the landing
+ gear) employ either a gusset or finger mate, reinforced with medium viscosity
+ cyanoacrylate (CA) glue.
+ Gusset mates are used when large surface areas are present.
+ The finger mate is used to connect perpendicular structures.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Aircraft-Construction-Interfaces"
+
+\end_inset
+
+ shows a gusset connection between the forward and middle fuselage in addition
+ to a finger joint used to mate the horizontal tail and the left (aft looking
+ forward) vertical tail.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename gusset_picture_SECTION 5.4.PNG
+	lyxscale 30
+	width 35text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Gusset Connection
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hspace*{\fill}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename slot_picture_SECTION 5.4.PNG
+	lyxscale 30
+	width 35text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Finger Connection
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Aircraft-Construction-Interfaces"
+
+\end_inset
+
+Aircraft Construction Interfaces
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

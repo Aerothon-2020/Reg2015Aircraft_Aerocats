@@ -1,0 +1,167 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 0.5in
+\rightmargin 0.5in
+\bottommargin 0.5in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Assembly and Subassembly, Test and Integration
+\end_layout
+
+\begin_layout Standard
+To aid in the design process, the plane is divided into four distinct subassembl
+ies: wing, fuselage, tail, and main landing gear.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Aircraft-Subassemblies"
+
+\end_inset
+
+ displays all the subassemblies in an exploded view.
+ The fuselage is further broken down into three parts; the forward, middle,
+ and aft fuselage.
+ The middle fuselage is the central section that all forces are transmitted
+ to, since the largest compression loads will happen upon landing and also
+ because it supports the payload.
+ Both the forward and aft fuselage connect to the middle fuselage with gussets.
+ The angled bottom of the middle fuselage is supported along the entire
+ length by the aft fuselage.
+ The tail assembly contains both the horizontal and vertical tail, along
+ with elevator and rudders.
+ The horizontal and vertical tails are joined by a slotted connection on
+ the spars.
+ The landing gear connects to the middle fuselage.
+\end_layout
+
+\begin_layout Standard
+The team decided on this subassembly configuration to improve the maintainabilit
+y of the plane.
+ If one section breaks it is possible to simply switch out the broken subassembl
+y without having to remake the plane.
+ For the flight ready configuration the only removable part (aside from
+ the payload) is the wing assembly.
+ The wing drops into a slot in the middle fuselage and then is secured with
+ six ¼ inch nylon bolts.
+ The removable wing facilitates transporting the aircraft.
+\end_layout
+
+\begin_layout Standard
+The propulsion system is housed in the forward fuselage with a removable
+ hatch to allow for easy access to the motor and battery.
+ The internally-housed propulsion system allows for the most aerodynamic
+ configuration for the aircraft.
+\begin_inset Wrap figure
+lines 8
+placement O
+overhang 0in
+width "55col%"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename 4_subassemblies_SECTION 7.PNG
+	lyxscale 50
+	width 55col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Aircraft-Subassemblies"
+
+\end_inset
+
+Aircraft Subassemblies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After 11 test flights on a prototype aircraft with a 25 to 31 lb payload,
+ no structural damage was found on the aircraft.
+ This validates the build quality of the team.
+ The aircraft is able to be maintained and repaired quickly due to systems
+ engineering considerations throughout the design process.
+ This also helped the team to determine which sections of the plane were
+ over-designed and could be reduced for weight savings.
+\end_layout
+
+\end_body
+\end_document

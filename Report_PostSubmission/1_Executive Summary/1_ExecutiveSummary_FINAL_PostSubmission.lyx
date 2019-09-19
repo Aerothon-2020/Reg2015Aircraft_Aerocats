@@ -1,0 +1,194 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 0.5in
+\rightmargin 0.5in
+\bottommargin 0.5in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Executive Summary
+\end_layout
+
+\begin_layout Standard
+The 2015 Society of Automotive Engineers (SAE) Aero Design Series
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textsuperscript{
+\backslash
+textregistered}$
+\end_layout
+
+\end_inset
+
+ Regular Class competition invites student teams from universities worldwide
+ to design, build, and fly radio-controlled (RC) aircraft.
+ These aircraft are optimized to carry the maximum payload weight given
+ specific design constraints.
+ We, the Aerocats, are proud to continue our rich history in this competition
+ with generous support from our sponsors Belcan, GE Aviation, Kinetic Vision,
+ ATK, Tect Power, and the University of Cincinnati.
+ 
+\end_layout
+
+\begin_layout Subsection
+Project Overview
+\end_layout
+
+\begin_layout Standard
+In order to optimize our design, our team decided to employ lean design
+ principles.
+ Lean design focuses on two main ideas: (1) minimization of 
+\begin_inset Quotes eld
+\end_inset
+
+-ings
+\begin_inset Quotes erd
+\end_inset
+
+ (e.g., designing, manufacturing, machining), and (2), maximizing the 
+\begin_inset Quotes eld
+\end_inset
+
+-ilities
+\begin_inset Quotes erd
+\end_inset
+
+ (e.g., manufacturability, maintainability, repairability, etc.).
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Huthwaite2007"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The team broke into critical design sub-teams: propulsion, aerodynamics,
+ stability and control, structures, and performance.
+ The propulsion team selected the motor, propeller, batteries, and speed
+ controller for the aircraft.
+ The aerodynamics team sized the main wing to provide maximum lifting capability
+ within team-derived requirements as well as the competition takeoff performance
+ requirement.
+ The stability and control team examined horizontal and vertical tail sizing
+ along with control surface sizing to ensure a stable and balanced aircraft.
+ Once critical systems were designed, the structures team decided on materials
+ and how to construct each system.
+ In addition flight operations and project management teams were created.
+ The project management team consisted of a team manager and systems engineer.
+ The team manager ensured that the team kept in constant communication with
+ each other, our advisor, and our pilot, in addition to keeping the team
+ organized and on schedule.
+ The main job of the systems engineer was system integration and ensuring
+ that the aircraft met these and the competition requirements.
+ The flight operations team developed plans for flight readiness.
+\end_layout
+
+\begin_layout Subsection
+Competition Projections & Conclusions
+\end_layout
+
+\begin_layout Standard
+The team successfully constructed a prototype aircraft that has flown 11
+ flights with payloads from 25 lbs to 31 lbs with the 2015 SAE Limiter installed.
+ The success of the prototype led the team to multiple design improvements
+ that will enhance reliability and lifting cability of the aircraft.
+ The team expects the designed aircraft to perform competitively and reliably
+ in Lakeland, FL.
+\end_layout
+
+\begin_layout Subsection
+Innovations
+\end_layout
+
+\begin_layout Standard
+The team created a system for an adjustable center of gravity (CG) through
+ the design of the payload loading system.
+ This ensures the pitch stability and response will remain constant increasing
+ the pilot's comfort with the aircraft.
+\end_layout
+
+\begin_layout Standard
+During the design, construction, and test activities the AeroCats team continuou
+sly sought to improve the aircraft by always focusing on the overall system
+ objective: to win the competition.
+ The AeroCats team established core values and aircraft design attributes
+ that would enable success, such as designing a simple and robust aircraft
+ that could carry a heavy payload, as well as designing for ease of transport,
+ assembly, and subsystem access.
+ Key aircraft attributes resulting from this design approach are a one-piece
+ wing, an easily-accessible payload bay, and modular subassembly layout.
+ By using this philosophy to drive the design of the aircraft, a highly
+ manufacturable, repairable, and maintainable aircraft was created.
+ The AeroCats team believes this is an uncommon approach to an RC aircraft
+ design.
+\end_layout
+
+\end_body
+\end_document

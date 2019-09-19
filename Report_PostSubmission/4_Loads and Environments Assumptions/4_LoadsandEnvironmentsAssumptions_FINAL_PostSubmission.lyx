@@ -1,0 +1,381 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 0.5in
+\rightmargin 0.5in
+\bottommargin 0.5in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Loads, Environments & Assumptions
+\end_layout
+
+\begin_layout Subsection
+Design Loads Derivations
+\end_layout
+
+\begin_layout Subsubsection
+Wing Load
+\end_layout
+
+\begin_layout Standard
+Initial propulsion and aerodynamic assumptions allowed the team to estimate
+ flight loading conditions.
+ This is displayed in the V-n Maneuver Diagram which can be seen in Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Flight-Envelope"
+
+\end_inset
+
+.
+ We used this envelope to determine loading on the main wing.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 8
+placement i
+overhang 0in
+width "30col%"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Vn_Diagramcropped_new.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Flight Envelope
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Flight-Envelope"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We determined the maximum flight loading of the aircraft to be 3.75 G's.
+ Using a 1.33 factor of safety (FOS) to account for wind gusts and other
+ unforeseen events the team calculated lift distribution across the span
+ of the wing at 5 G's using the Schrenk Approximation method.
+ This method is a mean of trapezoidal and elliptical lift approximations
+ which can be seen in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Half-Span-Loading"
+
+\end_inset
+
+.
+\begin_inset Wrap figure
+lines 6
+placement O
+overhang 0in
+width "30text%"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename spanwise_loadingcropped_new.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Half Span Loading
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Half-Span-Loading"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Landing Shock
+\end_layout
+
+\begin_layout Standard
+The team estimated a landing shock load of 129 lbs, which is 3.0 times the
+ maximum estimated take off weight of 43 lbs.
+ This landing load is used to account for extreme conditions such as encounterin
+g a downdraft during landing.
+\end_layout
+
+\begin_layout Subsubsection
+Tail Load
+\end_layout
+
+\begin_layout Standard
+The maximum tail loading is a sum of lift and drag forces acting on the
+ horizontal and vertical tail as well as rear control surfaces.
+ The maximum loading is determined to be 4 lbs.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Firewall Loading
+\end_layout
+
+\begin_layout Standard
+The maximum static thrust achieved on the test stand was 13.0 lbs, which
+ will exceed any in-flight thrust with the limiter installed.
+ The maximum torque measured was 1.04 ft-lbs which will also exceed any in-flight
+ values.
+\end_layout
+
+\begin_layout Subsection
+Environmental Considerations
+\end_layout
+
+\begin_layout Standard
+The University of Cincinnati’s 2015 competition team flew all test flights
+ at Wegerzyn Gardens MetroPark in Dayton, Ohio.
+ Wegerzyn has an altitude of 788 feet above sea level.
+ On the flight test days the temperature ranged from 20
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+F to 40
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+F with winds from 0 miles per hour (MPH) to 15 MPH.
+ The pressure averaged 30.30 inHg, and humidity ranged from 40% to 50%.
+ Those days had zero precipitation; however, the runway was still wet from
+ snow during one of the days.
+ Flight testing of previous iterations of the aircraft proved that the plane
+ is capable of above 10 foot cruise altitude which allows the aircraft to
+ clear the 8 foot fence present on the course.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 10
+placement O
+overhang 0in
+width "40col%"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename DensityAltitudeVariation.png
+	lyxscale 50
+	width 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Hourly-Variation-in-Density-Altitude"
+
+\end_inset
+
+Hourly Variation in Density Altitude
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+This year’s competition occurs in Lakeland, Florida.
+ Lakeland has an altitude of approximately 197 feet above sea level.
+ Historically the temperature has averaged 70
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+F in the late afternoon into the early evening with the daily low around
+ 50
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+F in the early morning.
+ Winds are historically between 9-11 MPH, which correspond to a sideslip
+ angle of under 10
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+ for our aircraft.
+ A minimum 1.33 FOS was applied to all designs to account for the additional
+ loading due to wind gusts, which can be up to 20 MPH at the competition
+ field.
+ The average rainfall during the month of March in Lakeland is 3.38 inches,
+ so chances of rainfall remains a possibility.
+ In the event of rain, the aircraft will still be able to operate because
+ all of the electrical components are protected within the skin of the aircraft.
+ 
+\end_layout
+
+\begin_layout Standard
+The pressure is typically around 29.80 inHg.
+ Humidity ranges from 55% to 85% depending on the time of day in March.
+ Based on historical conditions of Lakeland, Florida, the hourly variation
+ in estimated density altitude is plotted in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Hourly-Variation-in-Density-Altitude"
+
+\end_inset
+
+.
+ The air density is much higher earlier in the day which means it is more
+ advantageous to fly as early as possible in order to generate additional
+ lift and thrust.
+ 
+\end_layout
+
+\end_body
+\end_document

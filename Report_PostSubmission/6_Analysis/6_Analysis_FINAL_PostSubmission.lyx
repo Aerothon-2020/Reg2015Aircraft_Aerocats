@@ -1,0 +1,3491 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 0.5in
+\rightmargin 0.5in
+\bottommargin 0.5in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Analysis
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Critical
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Experienced
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Margin
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stall Point 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+22.4
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.0%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wing Deflection
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.34
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.38
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+58.7%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ground Roll*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+200 Feet
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+143 Feet
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+28.5%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Performance Margin
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+* Ground Roll analyzed for a 30.15 lb payload at sea level conditions.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Analysis Techniques
+\end_layout
+
+\begin_layout Subsubsection
+Analytical Tools
+\end_layout
+
+\begin_layout Standard
+The analytical tools used by the team were MATLAB, XFLR5, XFOIL, Solid Works,
+ and ANSYS.
+ MATLAB is a technical computing language that can verify select design
+ models, make quick mathematical calculations, and create our ground-roll
+ estimation program.
+ Athena Vortex Lattice (AVL) is a CFD code which calculates the aerodynamics
+ and control surface reactions of an aircraft.
+ XFLR5 is a wing design tool that generates aerodynamic data about airfoils
+ and wings using the Lifting Line Theory, Vortex Lattice Method, and a 3D
+ Panel Method.
+ This program relies on XFOIL to calculate pressure distribution on airfoils.
+ SolidWorks was used to develop 2D and 3D models that are utilized in fabricatio
+n and manufacture of the aircraft.
+ ANSYS is a Finite Element Analysis (FEA) program used to compute forces,
+ stresses, and displacements on complex structures.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Developed Models
+\end_layout
+
+\begin_layout Standard
+Aerothon is an in-house, student-built, Python-based code that each part
+ of the team uses to generate and analyze data.
+ The Aerothon code can calculate aerodynamic and structural loads, propulsion
+ information, stability and control information, and performance related
+ items.
+ The team uses this data to optimize the plane design.
+ In addition to Aerothon, each group developed additional models to aid
+ in achieving their design targets.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Structural Modeling
+\end_layout
+
+\begin_layout Standard
+The structures team used flight load envelope models in Aerothon to predict
+ loading conditions on critical structures.
+ Based on the models from Aerothon, the team produced SolidWorks models
+ for size specifications and exportation of parasolids into ANSYS.
+ FEA analysis is performed on the aft fuselage and wheels to verify loading
+ and deflections are within acceptable limits.
+ These results are further confirmed by hand calculations, and once an acceptabl
+e design was achieved, the team begins building and testing.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Aerodynamics Modeling
+\end_layout
+
+\begin_layout Standard
+Aerothon is used to generate aerodynamic data of the aircraft, such as the
+ wing and tail's lift, drag, and moment characteristics.
+ Aerothon primarily uses Prandtl's Lifting-Line-Theory to calculate data
+ at a zero angle of attack and AVL to generate data for non-zero angles
+ of attack.
+ Aerothon partially relies on commercial codes such as XFLR5 to generate
+ 3D wing aerodynamic data and XFOIL to generate data concerning airfoil
+ design.
+\end_layout
+
+\begin_layout Paragraph
+Stability and Controls Modeling
+\end_layout
+
+\begin_layout Standard
+The stability and control team used the dynamic flight model in Aerothon
+ to estimate dynamic flying qualities for the aircraft.
+ Aerothon uses standard equations of motion to calculate aircraft stability
+ parameters.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Ground Roll Performance Modeling
+\end_layout
+
+\begin_layout Standard
+To verify Aerothon’s ground roll estimations, a takeoff distance prediction
+ program was generated in MATLAB.
+ The code utilizes lift and drag coefficients developed from XFLR5 for a
+ variety of airfoils, Reynolds numbers, angle of attacks, wingspans, and
+ planform areas.
+ Additionally, the code imports thrust data from Aerothon propulsion system
+ models.
+ The code is then capable of analyzing takeoff distances for a variety of
+ conditions.
+ The model incorporates all of these elements and then implements Heun’s
+ method for numerically solving the equation of motion of aircraft during
+ takeoff.
+ 
+\end_layout
+
+\begin_layout Paragraph
+\paragraph_spacing double
+Propulsion System Modeling
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "3.5in"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename motor_matching_example.png
+	lyxscale 20
+	width 3in
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Matched-Motor-Data"
+
+\end_inset
+
+Matched Motor Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The propulsion team used modeling capabilities within the Aerothon toolbox
+ to create empirically matched propeller and motor models.
+ Propeller and motor data are matched to build an empirically representative
+ model of the real world.
+ For example, data matched to the Hacker A50 14L V3 is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Matched-Motor-Data"
+
+\end_inset
+
+.
+ This ensures that we adjust for any inaccuracies in manufacturer reported
+ motor qualities.
+ To go from independent motor and propeller models to a full system model
+ requires a way to match the propeller to the estimated motor behavior.
+ Aerothon accomplishes this through calculating the power matched RPM.
+ This is the RPM at which the propellers mechanical power consumption is
+ equal to the mechanical power output of the motor.
+ This modeling method allows the team to do very quick and effective trade
+ studies for motor and propeller combinations that saves valuable test stand
+ and flight time.
+ 
+\begin_inset Wrap figure
+lines 0
+placement r
+overhang 0in
+width "3in"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename matchRPM.png
+	lyxscale 30
+	width 3in
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Engine and Propeller Power Matching
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Performance Analysis
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Critical
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Experienced
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Margin
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stall Point 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+22.4
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.0%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wing Deflection
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.34
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.38
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+58.7%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ground Roll*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+200 Feet
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+143 Feet
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+28.5%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Performance Margins
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+* Ground Roll analyzed for a 30.15 lb payload at sea level conditions.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Runway and Landing Performance
+\end_layout
+
+\begin_layout Standard
+On the runway the maximum rotation allowed by the aircraft design is 8.5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+ in addition to the 1
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+ incidince built into the main wing results in a 9.5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+ angle of attack.
+ This capability allows for high lift to be achieved upon rotation.
+ Additionally the ground coefficient of friction is 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+mu=0.0178$
+\end_layout
+
+\end_inset
+
+ which minimizes frictions impedence on the propulsion system's ability
+ to accelerate the aircraft.
+ The landing gear is a robust design that allows for hard landing.
+\end_layout
+
+\begin_layout Subsubsection
+Flight and Maneuver Performance
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap table
+lines 0
+placement o
+overhang 0in
+width "25col%"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Roll
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pitch
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yaw
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{l
+\backslash
+delta a}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{m
+\backslash
+delta e}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{n
+\backslash
+delta r}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.178
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-1.275
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.056
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Directional-Control-Power"
+
+\end_inset
+
+Directional Control Power Derivatives
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The plane experiences two banks of a maximum 60
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+, one bank to begin cruise and the other for landing approach.
+ This aircraft has three sets of control surfaces: ailerons on the outboard
+ sections of each wing, an elevator on the horizontal tail, and rudders
+ as a part of the vertical tails.
+ When deflected, each control surface induces a directional moment on the
+ aircraft.
+ In order to demonstrate that this aircraft is not just stable, but also
+ controllable, it is important to consider the effectiveness of the control
+ surfaces as shown through the aerodynamic derivaties listed in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Directional-Control-Power"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The control authority of the elevator is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pitch-Moment-Coefficient"
+
+\end_inset
+
+.
+ As shown in the left plot in this figure, a elevator deflection of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+pm 15 
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+ can clearly provide positive and negative moments to the aircraft for control
+ within the designed operationl range of 0
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+leq$
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+alpha$
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+leq$
+\end_layout
+
+\end_inset
+
+ 20
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+.
+ To the same effect, the effectiveness of the ailerons is exhibited in Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Aircraft-roll-rate"
+
+\end_inset
+
+ by plotting the roll rate of the aircraft with respect to aileron deflection.
+ It can be seen that this aircraft produces a roll rate of approximately
+ 85 degrees per second at liftoff and 135 degrees per second at maximum
+ speed.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Rudder-deflection-as"
+
+\end_inset
+
+ demonstrates that this aircraft can compensate for a 15 degree sideslip
+ angle with only a 12 degree deflection of the rudder.
+ This will be advantageous when flying in higher winds.
+ After necessary allowable control surface deflection, the conclusion was
+ reached that it is satisfactory to mechanically limit each of the control
+ surfaces to 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+pm 30
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename RollRate.png
+	lyxscale 50
+	height 2.6in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Aircraft-roll-rate"
+
+\end_inset
+
+Aircraft roll rate as a function of aileron deflection
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hspace*{\fill}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename RudderDeflection_Sideslip.png
+	lyxscale 50
+	height 2.6in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Rudder-deflection-as"
+
+\end_inset
+
+Rudder deflection as a function of sideslip angle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Control Authority
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Shading/Downwash
+\end_layout
+
+\begin_layout Standard
+In order to take into account the downwash created by the wing, the stability
+ and controls team calculated a downwash correction factor of 1.63.
+ This was taken into account when calculating the total aircraft moments
+ for static and dynamic stability to have a more accurate model or aircraft
+ stability.
+\end_layout
+
+\begin_layout Subsubsection
+Dynamic & Static Stability
+\end_layout
+
+\begin_layout Standard
+The stability and control analysis was broken up into two stages: static
+ stability and dynamic stability.
+ Static stability was investigated first since the aircraft cannot be dynamicall
+y stable without first being statically stable.
+\end_layout
+
+\begin_layout Paragraph
+Static Stability
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Requirement
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Value of Derivative
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Roll
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{l
+\backslash
+beta}$
+\end_layout
+
+\end_inset
+
+ < 0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.067
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Pitch
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{m
+\backslash
+alpha}$
+\end_layout
+
+\end_inset
+
+ < 0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.289
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Yaw
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{n
+\backslash
+beta}$
+\end_layout
+
+\end_inset
+
+ > 0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.047
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Static-Stability-Requirements"
+
+\end_inset
+
+Static Stability Requirements and Aircraft Aerodynamic Derivative Approximations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "1.25in"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename RudderDeflection_Sideslip.png
+	lyxscale 50
+	width 1.25in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Pitch-Moment-Coefficient"
+
+\end_inset
+
+Pitch Moment Coefficient vs.
+ Angle of Attack
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+For static stability, there are three basic requirements that must be satisfied,
+ one for each axis of rotation, in order for the aircraft to be stable.
+ These requirements, calculated by AVL, are represented in the rolling,
+ pitching, and yawing moment derivative coefficients, as seen in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Static-Stability-Requirements"
+
+\end_inset
+
+, and correspond to an initial tendency to restore the aircraft back to
+ directional equilibrium.
+ The rolling and yawing terms, C
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{l
+\backslash
+beta}$
+\end_layout
+
+\end_inset
+
+ and C
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{n
+\backslash
+beta}$
+\end_layout
+
+\end_inset
+
+ respectively, are with respect to sideslip angle (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+beta$
+\end_layout
+
+\end_inset
+
+), and the pitching term, C
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{m
+\backslash
+alpha}$
+\end_layout
+
+\end_inset
+
+ is with respect to the angle of attack (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+alpha$
+\end_layout
+
+\end_inset
+
+).
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Static-Stability-Requirements"
+
+\end_inset
+
+ shows compliance with these requirements.
+\end_layout
+
+\begin_layout Standard
+To further confirm pitch stability, the pitching moment coefficient was
+ plotted as a function of angle of attack in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pitch-Moment-Coefficient"
+
+\end_inset
+
+.
+ This plot shows a nearly linear trend within the aircraft's expected angle
+ of attack range (0
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+leq$
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+alpha$
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+leq$
+\end_layout
+
+\end_inset
+
+ 20
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+) for a static margin of 7% of the MAC 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+pm$
+\end_layout
+
+\end_inset
+
+2% CG shift.
+ Also note the positive trim angle of attack (+4
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+) indicated where the blue polar crosses the x-axis, or the zero-moment
+ line.
+ This low trim angle of attack occurs during cruising flight and will help
+ minimize drag due to elevator deflection.
+\end_layout
+
+\begin_layout Standard
+For both the horizontal and vertical tail airfoils, the NACA 0012 was selected
+ because of its optimal combination of low Reynolds number performance,
+ low drag contribution, and simple design.
+ The aspect ratio and volume coefficient were also considered in the design
+ of the tails.
+ The aspect ratio of the horizontal tail was designed to be 4.9 with 50%
+ of its chord making up the elevator and a volume coefficient of 36% of
+ the main wing volume.
+ The two vertical tails were each designed with an aspect ratio of 1.27 and
+ a volume coefficient of 3% of the main wing volume.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Dynamic Stability
+\end_layout
+
+\begin_layout Standard
+Once static stability is established, dynamic stability must be examined
+ to ensure continued steady flight.
+ dynamic stability was divided into longitudinal and lateral directional
+ stability modes.
+ To establish requirements for dynamic stability, the highest, Level 1,
+ flying qualities were desired to demonstrate that our aircraft is clearly
+ adequate for stable flight during the competition mission and to minimize
+ pilot input.
+ We examind short period, phugoid, dutch roll, and spiral mode.
+ As shown in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Longitudinal-and-Lateral"
+
+\end_inset
+
+, all critical flight modes are stable with the exception of the spiral
+ mode, made evident by its positive eigenvalue and its very low time to
+ double.
+ However, this mode becomes less unstable with increased wing dihedral which
+ is expected during flight.
+ The short period mode is also nearly critically damped at 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+zeta$
+\end_layout
+
+\end_inset
+
+=1.03.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Mode
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Short Period
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Phugoid
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Dutch Roll
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Spiral Mode
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Requirements
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.35 < 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+zeta$
+\end_layout
+
+\end_inset
+
+ < 1.3
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+zeta$
+\end_layout
+
+\end_inset
+
+ > 0.04
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+omega$
+\end_layout
+
+\end_inset
+
+ > 0.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+t
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{double}$
+\end_layout
+
+\end_inset
+
+ > 12 s
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+zeta$
+\end_layout
+
+\end_inset
+
+ > 0.08
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+lambda$
+\end_layout
+
+\end_inset
+
+ < 0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Qualities
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+omega$
+\end_layout
+
+\end_inset
+
+ = 13.00 s
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$^{-1}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+omega$
+\end_layout
+
+\end_inset
+
+ = 2.57 s
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$^{-1}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+omega$
+\end_layout
+
+\end_inset
+
+ = 3.05 s
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$^{-1}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+t
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{double}$
+\end_layout
+
+\end_inset
+
+ = 2.76 s
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+zeta$
+\end_layout
+
+\end_inset
+
+ = 1.03
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+zeta$
+\end_layout
+
+\end_inset
+
+ = 0.18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+zeta$
+\end_layout
+
+\end_inset
+
+ = 0.36
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+lambda$
+\end_layout
+
+\end_inset
+
+ = 0.25
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Longitudinal-and-Lateral"
+
+\end_inset
+
+Longitudinal and Lateral Dynamic Stability Components
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Aeroelasticity
+\end_layout
+
+\begin_layout Standard
+The team analyzed the two major in flight loading conditions: the manuever
+ loads expereinced by the wing, and the fuselage loads induced by the tail
+ control surface deflection.
+ A representative point load was applied to the center of the wing to simulate
+ stress caused by in flight manuevers.
+ The test configuration is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wing-Load-Testing"
+
+\end_inset
+
+.
+ We used a turnbuckle to apply the continuous, low impulse, point load to
+ the center of the simply supported wing.
+ The ruler on the wall measures center deflection at specific loading intervals
+ captured on a high-speed camera.
+ At the critical load of 81.6 LB, the deflection was approximately 1.38 inches.
+ This is less than half of the calculated maximum deflection of 3.34 inches,
+ and therefore acceptable by our standards.
+ 
+\end_layout
+
+\begin_layout Standard
+We investigated the aft-fuselage using FEA (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Aft-Fuselage-Finite"
+
+\end_inset
+
+) and validated the results through testing.
+ A critical load of 2 LB was applied to three points on the end of the fuselage,
+ while the opposite end is fixed.
+ The maximum calculated deflection in the vertical direction (y-axis) is
+ -0.019 inches and therefore negligible.
+ The team validated this conclusion by physically hanging steel plates on
+ the tail, while the forward end of the fuselage was constrained.
+ We observed a negligible amount of deflection.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "1.5in"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Fuselage Displacement_Cropped Rev 1.PNG
+	lyxscale 30
+	width 1.5in
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Aft-Fuselage-Finite"
+
+\end_inset
+
+Aft Fuselage Finite Element Analysis Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Lifting Performance, Payload Prediction, and Margin
+\end_layout
+
+\begin_layout Standard
+Using the derived wing shape, the 3D polars of the plane were analyzed.
+ The results, in Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Lift-and-Drag"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Estimated-3D-Polars"
+
+\end_inset
+
+, show our aircraft's lift, drag, and moment characteristics across a range
+ of angles of attack, as well as points of interest such as the location
+ of lift-off (LO), stall, maximum lift-over-drag (LoD), and maximum climb
+ rate.
+ Given that our plane demonstrated an operating range between -5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+ and 15
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+ during flight testing, we are confident that our plane will not reach the
+ stall point of 22.4
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+ unless extreme circumstances ensue.
+ To further increase lift during ground roll, the wing was given an incidence
+ of 1
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+textdegree$
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename alpha plots.png
+	lyxscale 50
+	height 2.25in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Estimated-3D-Polars"
+
+\end_inset
+
+Estimated 3D Polars for the Wing, Aircraft, and Trimmed Aircraft Characteristics
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hspace*{\fill}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename l over d.png
+	lyxscale 50
+	height 2.25in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Lift-and-Drag"
+
+\end_inset
+
+Lift and Drag Profile
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Aircraft Lift and Drag Polars
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The MATLAB Code predicted ground roll for a 0 foot desnity altitude with
+ 30.15 lbs payload is 143.3 feet.
+ This provides 28.4% margin to ground roll limitations.
+\end_layout
+
+\begin_layout Subsection
+Mechanical Analysis
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Structure
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Allowable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Factor 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Actual 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Margin 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Stress
+\series default
+ (psi)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+of Safety
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Stress
+\series default
+ (psi)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+of Safety
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wing Spar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5150
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.33
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3925
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-.01
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fuselage Truss
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1710
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+567
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.01
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wheel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1040
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.92
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wheel Bearing*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+261 lb
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{f}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+126 lb
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{f}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.381
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Axle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+36000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10760
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.23
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Critical Structural Margins
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Critical-Structural-Margins"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+*Wheel bearing loads in lb
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{f}$
+\end_layout
+
+\end_inset
+
+ due to manufacturer published strength values
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Applied Loads and Critical Margins Discussion
+\end_layout
+
+\begin_layout Standard
+The team performed mechanical anaylsis using the loading conditions defined
+ in Section 4.1 Design Load Derivations.
+ The distributed wing loading for 5G's was integrated to determine an equivalent
+ point load of 81.6 lbs at the center of the wing when supported at the wing
+ tips.
+ The spar is a box spar which has a higher torsional strength than an I-beam
+ and is easier to construct than a D-spar.
+\end_layout
+
+\begin_layout Standard
+The team chose a 1.75 inch x 1.75 inch main spar cross section for strength
+ and constructability.
+ The bending stress at the center of our 105 inch long box spar at a 5G
+ load is 5210 psi.
+ The team performed destructive testing to measure the ultimate stress capabilit
+y of the spar.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wing-Load-Testing"
+
+\end_inset
+
+ shows the testing methods used.
+ Both the spar and wing assemblies were tested independently as simply supported
+ beams loaded at their centers.
+ The ultimate failure load on the wing assembly was 80.6 lbs, or 5150 psi
+ with a maximum deflection of 1.38 inches.
+ The critical margin of -0.01 was determined to be acceptable because the
+ wing spar is able to bear loads up to 125% of the maximum predicted loading.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "2.5in"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Wing Deflection Test Rev 1.png
+	lyxscale 50
+	width 2.5in
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Wing-Load-Testing"
+
+\end_inset
+
+Wing Load Testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The aft fuselage is constructed from 
+\begin_inset Formula $\frac{1}{4}$
+\end_inset
+
+ inch x 
+\begin_inset Formula $\frac{1}{4}$
+\end_inset
+
+ inch basswood members, which have a compressive strength of 1710 psi parallel
+ to the wood grain.
+ It was analysed using FEA applying a 6 lb (4lbs x 1.5 Factor of Safety)
+ distributed across the aft end of the fuselage as well as applying two
+ coupled forces to induce torque.
+ Maximum stress was determined to be 567 psi.
+\end_layout
+
+\begin_layout Standard
+The middle fuselage is aircraft plywood which is ideal for handling loads
+ in multiple directions.
+ Little published data exists on the strengths of plywood so the team relied
+ on destructive test for this section.
+ The payload section showed no failure in 225 lb compressive and tensile
+ loads, which exceed any predicted loading on the aircraft.
+ Acceptable safety margins were found as can be seen in Table
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Critical-Structural-Margins"
+
+\end_inset
+
+.
+ While the critical margins of the landing gear and axle are high, trade
+ studies determined that available weight savings in this component were
+ low.
+\end_layout
+
+\begin_layout Subsubsection
+Mass Properties & Balance
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+To ensure the aircraft was properly balanced the weights of all components
+ were calculated, either by directly weighing the component or by assigning
+ material properties to the component in SolidWorks.
+ The total weight anticipated of the plane is 8 lbs.
+ We measured the center of gravity for an empty plane, 28 pounds of payload,
+ and 36 pounds of payload.
+ The team did this to verify that the static margin remained within acceptable
+ limits.
+ The payload is by far the largest weight contributor, with a payload fraction
+ of .81 when loaded to 36 pounds.
+ Due to this, placement of the payload was extremely critical in maintaining
+ a stable plane.
+ The team uses a steel carriage with a threaded rod extending its length
+ that steel plates are loaded on to.
+ This serves two purposes: securing the plates in the carriage, and allowing
+ movement of the center of the weights further forward or aft.
+ The final consideration made was the weights of the various sub-assemblies
+ and their associated center of gravities.
+ This information is listed below in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Aircraft-Mass-Properties"
+
+\end_inset
+
+, with the datum located at the front of the engine shaft.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Component
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Weight 
+\series default
+(lb
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_{f}$
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Center of Gravity
+\series default
+ (X, Y, Z, inches)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wing Assembly
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.4596
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.00, 7.90, -11.95)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nose Bay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1069
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.00, 5.59, -5.45)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Middle Fuselage
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7045
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.00, 4.46, -14.19)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aft Fuselage
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.3477
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.00, 3.46, -27.66)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Landing Gear
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1986
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.00, -0.375, -13.63)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Horizontal Tail
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.4845
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.00, 5.88, -48.43)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vertical Tail
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1856
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.00, 7.69, -49.13)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Aircraft-Mass-Properties"
+
+\end_inset
+
+Aircraft Mass Properties
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
