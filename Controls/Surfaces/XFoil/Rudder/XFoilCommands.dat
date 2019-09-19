@@ -1,0 +1,143 @@
+
+
+
+
+
+gdes
+flap
+0.29
+999
+0.5
+20.0
+x
+
+
+
+
+
+
+
+oper
+visc 168080.100921
+
+
+
+
+
+
+
+oper
+Re 168080.100921
+iter 800
+init
+a 3.0
+fmom
+
+
+
+
+
+
+
+oper
+Re 183834.121875
+iter 800
+init
+a 3.0
+fmom
+
+
+
+
+
+
+
+oper
+Re 199588.142828
+iter 800
+init
+a 3.0
+fmom
+
+
+
+
+
+
+
+oper
+Re 215342.163781
+iter 800
+init
+a 3.0
+fmom
+
+
+
+
+
+
+
+oper
+Re 231096.184734
+iter 800
+init
+a 3.0
+fmom
+
+
+
+
+
+
+
+oper
+Re 246850.205687
+iter 800
+init
+a 3.0
+fmom
+
+
+
+
+
+
+
+oper
+Re 262604.22664
+iter 800
+init
+a 3.0
+fmom
+
+
+
+
+
+
+
+oper
+Re 278358.247594
+iter 800
+init
+a 3.0
+fmom
+
+
+
+
+
+
+
+oper
+Re 294112.268547
+iter 800
+init
+a 3.0
+fmom
+
+
+
+
+quit
