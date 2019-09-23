@@ -2,7 +2,7 @@ from __future__ import division # let 5/2 = 2.5 rather than 2
 from scalar.units import IN, LBF, SLUG, FT, GRAM, gacc, OZF
 from scalar.units import AsUnit
 from Aerothon.ACFuselage import ACFuselage
-from Aircraft_Models.Reg2015Aircraft_AeroCats.Structures.Materials import BalsaBH, ACPlyBH, ACPlySkin, BassStringer, BalsaStringer, Monokote, Steel
+from Structures.Materials import BalsaBH, ACPlyBH, ACPlySkin, BassStringer, BalsaStringer, Monokote, Steel
 
 Fuselage = ACFuselage()
 #

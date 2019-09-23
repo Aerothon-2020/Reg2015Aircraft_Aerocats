@@ -7,7 +7,7 @@ from Aerothon.ACAircraft import ACTailAircraft
 from Aerothon.ACWingWeight import ACSolidWing, ACRibWing
 from Aerothon.DefaultMaterialsLibrary import Monokote, PinkFoam, Basswood, Steel, Balsa, Aluminum, Ultracote
 from Fuselage import Fuselage
-from Aircraft_Models.Reg2015Aircraft_AeroCats.Propulsion.Aircraft_Propulsion import Propulsion #Reg2014-Reg2015 -Andrew Clemens
+from Propulsion.Aircraft_Propulsion import Propulsion #Reg2014-Reg2015 -Andrew Clemens
 from Wing import Wing
 import pylab as pyl
 import cmath as math
