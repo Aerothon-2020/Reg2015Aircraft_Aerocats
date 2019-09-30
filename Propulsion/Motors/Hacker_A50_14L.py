@@ -7,7 +7,7 @@ import cmath as math
 from scalar.units import MM, IN, OZF, RPM, HP, V, A, OHM, GRAM, gacc, mAh, W, LBF, inHg, K
 from scalar.units import AsUnit
 from Aerothon.AeroUtil import STDCorrection
-from Propulsion.Batteries.Turnigy_6Cell_3000 import Turnigy_6Cell_3000
+from Reg2015Aircraft_Aerocats.Propulsion.Batteries.Turnigy_6Cell_3000 import Turnigy_6Cell_3000
 
 
 # Set Motor properties

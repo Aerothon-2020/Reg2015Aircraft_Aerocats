@@ -8,7 +8,7 @@ from scalar.units import MM, IN, OZF, RPM, HP, V, A, OHM, GRAM, gacc, mAh, W, LB
 from scalar.units import AsUnit
 from Aerothon.AeroUtil import STDCorrection
 #from Aircraft_Models.Reg2015Aircraft_AeroCats.Propulsion.Batteries.Turnigy_6Cell_3000 import Turnigy_6Cell_3000
-from Propulsion.Batteries.Turnigy_6Cell_3000 import Turnigy_6Cell_3000
+from Reg2015Aircraft_Aerocats.Propulsion.Batteries.Turnigy_6Cell_3000 import Turnigy_6Cell_3000
 
 # Set Motor properties
 Motor  = ACMotor()
